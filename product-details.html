@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="light" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <!-- Apply the saved theme before styles and page content render. -->
+  <script src="assets/js/theme.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Details | AuraMillet Organics</title>
+  <meta name="description" content="View ingredients, verified nutrition facts, allergen details, and brewing/cooking guides for AuraMillet organic whole grain products.">
+  <meta name="keywords" content="millet nutrition facts, ragi flour ingredients, foxtail cookies allergens, ancient grains cooking instructions">
+
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="Artisanal Foxtail Millet Cookies | AuraMillet Organics">
+  <meta property="og:description" content="Slow-baked golden foxtail millet cookies enriched with California almonds and cardamom. 100% refined flour-free.">
+  <meta property="og:image" content="assets/images/products/cookies/foxtail-cookies-1.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/branding/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/product-details.css">
+</head>
+<body>
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+
+  <!-- Global Header -->
+  <header class="site-header">
+    <div class="container-fluid container-xxl">
+      <nav class="navbar navbar-expand-xxl py-2.5">
+        <a class="navbar-brand me-4" href="index.html" aria-label="AuraMillet Organics Homepage">
+          <img src="assets/images/branding/logo.svg" alt="AuraMillet Organics Logo" class="brand-logo site-brand-logo" width="220" height="48">
+        </a>
+
+        <div class="d-flex align-items-center gap-2 d-xxl-none ms-auto me-2">
+          <button type="button" class="header-action-btn" data-toggle-theme title="Switch Theme" aria-label="Switch Theme">
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+          <button type="button" class="header-pill-toggle" data-toggle-rtl title="Toggle RTL / LTR" aria-label="Toggle RTL / LTR">
+            <span class="dir-text">RTL</span>
+          </button>
+          <button type="button" class="header-action-btn" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" aria-label="Open Shopping Cart">
+            <i class="bi bi-bag"></i>
+            <span class="cart-counter">0</span>
+          </button>
+          <button class="navbar-toggler border-0 p-1" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavbar" aria-controls="primaryNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list fs-2 text-main"></i>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="primaryNavbar">
+          <ul class="navbar-nav mx-auto mb-2 mb-xxl-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html"><i class="bi bi-shop me-2 text-accent"></i> Home 1 — Premium Store</a></li>
+                <li><a class="dropdown-item" href="home-2.html"><i class="bi bi-heart-pulse me-2 text-accent"></i> Home 2 — Healthy Lifestyle</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link active" href="products.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="health-benefits.html">Health Benefits</a></li>
+            <li class="nav-item"><a class="nav-link" href="blog.html">Millet Journal</a></li>
+            <li class="nav-item"><a class="nav-link" href="pricing.html">Value Bundles</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+
+          <div class="d-none d-xxl-flex align-items-center gap-2.5">
+            <!-- Theme Toggle -->
+            <button type="button" class="header-action-btn" data-toggle-theme title="Switch Theme" aria-label="Switch Theme">
+              <i class="bi bi-moon-stars-fill"></i>
+            </button>
+            <!-- RTL Toggle -->
+            <button type="button" class="header-pill-toggle" data-toggle-rtl title="Toggle RTL / LTR" aria-label="Toggle RTL / LTR">
+              <span class="dir-text">RTL</span>
+            </button>
+            <!-- Cart Offcanvas Button -->
+            <button type="button" class="header-action-btn" data-bs-toggle="offcanvas" data-bs-target="#cartOffcanvas" title="Shopping Cart" aria-label="Shopping Cart">
+              <i class="bi bi-bag"></i>
+              <span class="cart-counter">0</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       MAIN CONTENT (EXACTLY 7 PURPOSEFUL SECTIONS — PRODUCT DETAILS)
+       ========================================================================== -->
+  <main id="mainContent" class="pdp">
+    <section class="pdp-section pdp-showcase" id="productDetailsView" aria-labelledby="productDetailTitle">
+      <div class="container">
+        <a href="products.html" class="pdp-back"><i class="bi bi-arrow-left" aria-hidden="true"></i> Explore the pantry</a>
+        <div class="pdp-showcase-grid">
+          <div class="pdp-gallery">
+            <button type="button" id="galleryZoomButton" class="pdp-main-photo" aria-label="Enlarge product photograph">
+              <img id="galleryMainImage" alt="" width="1200" height="1200" fetchpriority="high">
+              <span class="pdp-zoom-hint"><i class="bi bi-zoom-in" aria-hidden="true"></i> Explore the details</span>
+            </button>
+            <div id="galleryThumbnailsContainer" class="pdp-thumbnails" role="group" aria-label="Product photographs"></div>
+            <p class="pdp-photo-note">Illustrative food photography. Serving accompaniments are not included.</p>
+          </div>
+          <div class="pdp-buybox">
+            <div class="pdp-meta"><span id="productDetailCategory" class="pdp-kicker"></span><span id="productDetailBadge" class="badge-pill badge-organic"></span></div>
+            <h1 id="productDetailTitle"></h1>
+            <p id="productDetailShortDesc" class="pdp-intro"></p>
+            <div class="pdp-price-row"><span id="productDetailPrice"></span><del id="productDetailOrigPrice"></del><span id="productDetailSavings" class="pdp-saving"></span></div>
+            <p class="pdp-pack"><i class="bi bi-box-seam" aria-hidden="true"></i><span id="productDetailWeight"></span></p>
+            <div id="productIngredientHighlights" class="pdp-chips" aria-label="Ingredient highlights"></div>
+            <div class="pdp-stock-row"><span id="productDetailStock"></span><span>SKU <code id="productDetailSku"></code></span></div>
+            <div class="product-purchase-controls">
+              <div class="input-group product-quantity-control">
+                <button type="button" class="btn btn-outline-brand" id="detailQtyMinus" aria-label="Decrease quantity">&minus;</button>
+                <input type="number" class="form-control text-center fw-bold" id="detailQtyInput" value="1" min="1" max="99" step="1" required aria-label="Quantity">
+                <button type="button" class="btn btn-outline-brand" id="detailQtyPlus" aria-label="Increase quantity">+</button>
+              </div>
+              <button type="button" class="btn btn-primary" id="detailAddToCartBtn"><i class="bi bi-bag-plus" aria-hidden="true"></i> Add to Basket</button>
+            </div>
+            <p id="productCartFeedback" class="pdp-cart-feedback" role="status" aria-live="polite"></p>
+            <div class="pdp-delivery"><i class="bi bi-truck" aria-hidden="true"></i><div><strong>Complimentary delivery from &#8377;999</strong><span>Demo store offer. No payment or dispatch takes place.</span></div></div>
+            <nav class="pdp-section-links" aria-label="Explore this product"><a href="#productNutrition">Ingredients &amp; nutrition</a><a href="#productPreparation">Preparation</a><a href="#productCare">Product care</a></nav>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pdp-section pdp-tinted" id="productNutrition" aria-labelledby="nutritionHeading">
+      <div class="container">
+        <div class="pdp-section-heading"><div><span class="pdp-kicker">01 / Know your ingredients</span><h2 id="nutritionHeading">A closer look inside.</h2></div><p>Understand the recipe, the serving, and the details that matter to your pantry.</p></div>
+        <div class="pdp-nutrition-grid">
+          <div class="pdp-ingredient-panel">
+            <figure class="pdp-ingredient-photo"><img id="productIngredientImage" alt="" width="960" height="640" loading="lazy" decoding="async"><figcaption id="ingredientCaption"></figcaption></figure>
+            <h3 id="ingredientsHeading">The recipe ingredients</h3>
+            <ul id="productDetailIngredientsList" class="pdp-ingredient-list"></ul>
+            <div class="pdp-allergen"><i class="bi bi-info-circle" aria-hidden="true"></i><p><strong>Allergen information</strong><span id="productDetailAllergens"></span></p></div>
+          </div>
+          <div class="pdp-nutrition-panel">
+            <div class="pdp-panel-title"><h3>Nutrition at a glance</h3><span class="pdp-demo-tag">Sample data</span></div>
+            <p id="nutritionNote" class="pdp-small">Values below are demonstration data from this template, not verified laboratory results. Check the final pack for nutritional information.</p>
+            <table class="pdp-nutrition-table"><caption id="nutritionServing"></caption><thead><tr><th scope="col">Nutrient</th><th scope="col">Per serving</th></tr></thead><tbody id="nutritionTableBody"></tbody></table>
+            <div class="pdp-taste"><i class="bi bi-cup-hot" aria-hidden="true"></i><div><span class="pdp-kicker">Taste &amp; texture</span><h4 id="productTasteTitle"></h4><p id="productTasteText"></p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pdp-section" id="productPreparation" aria-labelledby="preparationHeading">
+      <div class="container pdp-preparation-grid">
+        <figure class="pdp-preparation-photo"><img id="productPreparationImage" alt="" width="960" height="1100" loading="lazy" decoding="async"><figcaption><i class="bi bi-heart" aria-hidden="true"></i><span id="productServingSuggestion"></span></figcaption></figure>
+        <div class="pdp-preparation-copy"><span class="pdp-kicker">02 / Make it your own</span><h2 id="preparationHeading"></h2><p class="pdp-timing"><i class="bi bi-clock" aria-hidden="true"></i><span id="preparationTime"></span></p><p class="pdp-needs"><strong>Bring to the kitchen</strong><span id="preparationNeeds"></span></p><ol id="productPreparationSteps" class="pdp-steps"></ol><p class="pdp-small">Serving ideas for this demo recipe. Use the final pack directions for quantities, cooking times, and handling.</p></div>
+      </div>
+    </section>
+
+    <section class="pdp-section pdp-care-section" id="productCare" aria-labelledby="careHeading">
+      <div class="container"><div class="pdp-section-heading"><div><span class="pdp-kicker">03 / A little care goes a long way</span><h2 id="careHeading">Keep the good things fresh.</h2></div><p id="careIntroduction"></p></div><div class="pdp-care-grid" id="productCareCards"></div></div>
+    </section>
+
+    <section class="pdp-section pdp-tinted" id="productJourney" aria-labelledby="journeyHeading">
+      <div class="container">
+        <div class="pdp-section-heading"><div><span class="pdp-kicker">04 / From farm to pack</span><h2 id="journeyHeading">Thoughtfully, at every step.</h2></div><p>A closer look at a typical product journey. This is an illustrative process, not a verified record of your batch.</p></div>
+        <div class="pdp-journey-photos"><figure><img src="assets/images/product-details/shared/millet-field-960.webp" srcset="assets/images/product-details/shared/millet-field-480.webp 480w, assets/images/product-details/shared/millet-field-960.webp 960w" sizes="(min-width: 768px) 50vw, 100vw" width="960" height="540" loading="lazy" alt="Illustrative finger millet field in warm morning light"><figcaption>It begins with the grain <span>Illustrative millet cultivation</span></figcaption></figure><figure><img src="assets/images/product-details/shared/packing-table-960.webp" srcset="assets/images/product-details/shared/packing-table-480.webp 480w, assets/images/product-details/shared/packing-table-960.webp 960w" sizes="(min-width: 768px) 50vw, 100vw" width="960" height="540" loading="lazy" alt="Illustrative packing table with unbranded pouches and millet grains"><figcaption>Ready for the pantry <span>Illustrative packing process</span></figcaption></figure></div>
+        <ol id="productProcessTimeline" class="pdp-timeline"></ol>
+        <details class="pdp-source-details"><summary>What can I verify about this product?</summary><div><p>This storefront demonstrates a product journey. It has no live batch lookup, farm records, or linked test certificates.</p><p>For a real purchase, check the pack for the batch number, ingredient declaration, best-before date, producer details, and any independently verifiable certifications. <a href="contact.html">Contact the store</a> for product information.</p></div></details>
+      </div>
+    </section>
+
+    <section class="pdp-section" id="productQuestions" aria-labelledby="questionsHeading">
+      <div class="container pdp-faq-grid"><div><span class="pdp-kicker">05 / Good to know</span><h2 id="questionsHeading">A few helpful answers.</h2><p>From the first spoonful to the last serving.</p><a href="contact.html" class="pdp-text-link">Need a hand? Contact us <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div><div id="prodFaqAccordion" class="pdp-faqs"></div></div>
+    </section>
+
+    <section class="pdp-section pdp-tinted" id="productRelated" aria-labelledby="relatedHeading">
+      <div class="container"><div class="pdp-section-heading"><div><span class="pdp-kicker">06 / Make room in your pantry</span><h2 id="relatedHeading">Good things to pair it with.</h2></div><a href="products.html" class="btn btn-outline-brand">Explore all products <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div><div id="relatedProductsGrid" class="pdp-related-grid"></div><div class="pdp-final-cta"><p>Found your next pantry favourite?</p><a href="#productDetailsView" class="pdp-text-link">Back to this product <i class="bi bi-arrow-up" aria-hidden="true"></i></a></div></div>
+    </section>
+  </main>
+  <dialog id="productImageZoom" class="pdp-zoom-dialog" aria-labelledby="zoomTitle"><div class="pdp-zoom-toolbar"><h2 id="zoomTitle">Product photograph</h2><button type="button" id="closeProductZoom" aria-label="Close enlarged photograph"><i class="bi bi-x-lg" aria-hidden="true"></i></button></div><img id="zoomProductImage" alt=""><p id="zoomCaption"></p></dialog>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+        <div class="col-12 col-lg-4">
+          <a href="index.html" class="d-inline-block" aria-label="AuraMillet Organics Homepage"><img src="assets/images/branding/logo-white.svg" alt="AuraMillet Organics" class="brand-logo mb-3" width="220" height="48"></a>
+          <p class="text-footer-muted small mb-4">
+            AuraMillet Organics revitalizes ancient climate-resilient supergrains into delicious everyday foods. Stoneground flours, guilt-free snacks, and pure nourishment sourced directly from smallholder regenerative dryland farmers.
+          </p>
+          <div class="d-flex align-items-center">
+            <a href="#" class="footer-social-btn" aria-label="Follow us on Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Follow us on Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Follow us on LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="footer-social-btn" aria-label="Subscribe on YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home Store</a></li>
+            <li><a href="home-2.html">Lifestyle Edition</a></li>
+            <li><a href="about.html">Our Brand Story</a></li>
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="health-benefits.html">Health Benefits</a></li>
+            <li><a href="initiatives.html">Sustainability</a></li>
+            <li><a href="blog.html">Millet Journal</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+          <h4 class="footer-heading">Pantry Staples</h4>
+          <ul class="footer-links">
+            <li><a href="products.html?category=flours">Sprouted Flours</a></li>
+            <li><a href="products.html?category=cookies">Almond Cookies</a></li>
+            <li><a href="products.html?category=noodles">Sun-Dried Noodles</a></li>
+            <li><a href="products.html?category=snacks">Roasted Munchies</a></li>
+            <li><a href="products.html?category=breakfast">Morning Muesli</a></li>
+            <li><a href="pricing.html">Value Combo Packs</a></li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="footer-heading">Join Our Table</h4>
+          <p class="text-footer-muted small mb-3">
+            Subscribe for seasonal harvest updates, wholesome millet recipes, and exclusive member discounts.
+          </p>
+          <form class="newsletter-form mb-3" novalidate>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Enter your email" aria-label="Enter your email for newsletter" required>
+              <button class="btn btn-accent px-3" type="submit" aria-label="Subscribe to newsletter"><i class="bi bi-send-fill"></i></button>
+            </div>
+            <div class="newsletter-feedback"></div>
+          </form>
+          <div class="small text-footer-muted">
+            <div class="mb-1"><i class="bi bi-geo-alt me-2 text-accent"></i> 142 Harvest Way, Organic Valley, CA 95014</div>
+            <div class="mb-1"><i class="bi bi-telephone me-2 text-accent"></i> +1 (800) 555-MILLETS</div>
+            <div><i class="bi bi-envelope me-2 text-accent"></i> hello@auramillet.example.com</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-wrap align-items-center justify-content-between gap-3">
+        <div>
+          &copy; 2026 AuraMillet Organics Inc. Built for commercial distribution. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Offcanvas Shopping Cart -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cartOffcanvas" aria-labelledby="cartOffcanvasLabel">
+    <div class="offcanvas-header">
+      <h3 class="offcanvas-title fs-5 font-serif mb-0" id="cartOffcanvasLabel">
+        <i class="bi bi-bag-check me-2 text-accent"></i> Your Shopping Basket
+      </h3>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close cart"></button>
+    </div>
+    
+    <div class="offcanvas-body p-0 d-flex flex-direction-column flex-column justify-content-between">
+      <div class="p-3 border-bottom bg-surface-muted shipping-bar-wrap">
+        <div class="shipping-bar-text" id="freeShippingText">
+          Add <strong>₹999</strong> more for <strong>FREE Shipping</strong>
+        </div>
+        <div class="shipping-progress">
+          <div class="shipping-progress-fill" id="freeShippingBar" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <div class="cart-items-container flex-grow-1" id="cartItemsList"></div>
+
+      <div id="cartEmptyState" class="text-center p-5 my-auto" style="display: none;">
+        <i class="bi bi-basket text-muted display-4 d-block mb-3"></i>
+        <h4 class="fs-5">Your basket is empty</h4>
+        <p class="text-muted small mb-4">Discover our wholesome sprouted flours and roasted munchies!</p>
+        <a href="products.html" class="btn btn-primary btn-sm" data-bs-dismiss="offcanvas">Start Shopping</a>
+      </div>
+
+      <div class="cart-footer-summary" id="cartFooterContainer">
+        <form id="cartPromoForm" class="mb-3">
+          <div class="input-group input-group-sm">
+            <input type="text" id="cartPromoInput" class="form-control" placeholder="Promo code (e.g. MILLETS10)" aria-label="Promo code">
+            <button class="btn btn-outline-brand" type="submit">Apply</button>
+          </div>
+          <div id="cartPromoFeedback"></div>
+        </form>
+
+        <div class="d-flex justify-content-between mb-1 small text-muted">
+          <span>Subtotal:</span>
+          <span id="cartSubtotalAmount" class="fw-bold text-main">₹0</span>
+        </div>
+        <div class="d-flex justify-content-between mb-1 small text-success" id="cartDiscountRow" style="display: none;">
+          <span>Promo Discount:</span>
+          <span id="cartDiscountAmount" class="fw-bold">-₹0</span>
+        </div>
+        <div class="d-flex justify-content-between mb-3 fs-5 fw-bold pt-2 border-top">
+          <span>Estimated Total:</span>
+          <span id="cartTotalAmount" class="text-brand">₹0</span>
+        </div>
+
+        <button type="button" class="btn btn-accent w-100 mb-2" id="cartCheckoutBtn">
+          Proceed to Checkout <i class="bi bi-arrow-right"></i>
+        </button>
+        <button type="button" class="btn btn-link btn-sm text-muted w-100 p-0" onclick="AuraCart.clearCart()">
+          Clear Basket
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Search Modal -->
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5 font-serif" id="searchModalLabel">
+            <i class="bi bi-search me-2 text-accent"></i> Search Millet Store
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close search"></button>
+        </div>
+        <div class="modal-body p-4">
+          <div class="input-group input-group-lg mb-3">
+            <span class="input-group-text bg-surface border-end-0"><i class="bi bi-search text-muted"></i></span>
+            <input type="search" class="form-control border-start-0 ps-0" id="globalModalSearchInput" placeholder="Try 'Ragi', 'Cookies', 'Noodles'..." aria-label="Search">
+          </div>
+          <div id="globalModalSearchResults">
+            <p class="text-muted text-center py-4 mb-0 small">Type at least 2 characters to search millet products and recipes...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="checkoutDemoModal" tabindex="-1" aria-labelledby="checkoutDemoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title fs-5 font-serif" id="checkoutDemoModalLabel">
+            <i class="bi bi-shield-lock text-success me-2"></i> Simulated Demo Checkout
+          </h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close checkout"></button>
+        </div>
+        <div class="modal-body p-4">
+          <p class="small text-muted mb-3">
+            This is a frontend commercial template demonstration. To test the checkout flow, review the form fields below:
+          </p>
+          <form id="checkoutDemoForm">
+            <div class="mb-3">
+              <label class="form-label small">Shipping Address</label>
+              <input type="text" class="form-control form-control-sm" placeholder="Street Address, City, Zip" required>
+            </div>
+            <div class="row g-2 mb-3">
+              <div class="col-8">
+                <label class="form-label small">Simulated Card Number</label>
+                <input type="text" class="form-control form-control-sm" placeholder="4242 •••• •••• 4242" required>
+              </div>
+              <div class="col-4">
+                <label class="form-label small">Exp / CVC</label>
+                <input type="text" class="form-control form-control-sm" placeholder="12/28 • 123" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">
+              Complete Simulated Order
+            </button>
+            <div id="checkoutDemoAlert" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/products-data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/product-images.js"></script>
+  <script src="assets/js/product-experience-data.js"></script>
+  <script src="assets/js/product-details.js"></script>
+  <script src="assets/js/forms.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
