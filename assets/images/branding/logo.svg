@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 4 250 60" width="250" height="60" fill="none">
+  <!-- Brand Icon: Stylized Golden Millet Stalk with Sun Arc -->
+  <g transform="translate(10, 8)">
+    <circle cx="26" cy="26" r="24" fill="#254738" />
+    <!-- Sun arc accent -->
+    <path d="M 12 26 A 14 14 0 0 1 40 26" stroke="#D6AD58" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <!-- Millet Stem -->
+    <path d="M 26 44 Q 26 28 27 12" stroke="#EDE6D8" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Millet Grains / Seeds cluster -->
+    <ellipse cx="23" cy="20" rx="3.5" ry="2" transform="rotate(-35 23 20)" fill="#D6AD58"/>
+    <ellipse cx="30" cy="18" rx="3.5" ry="2" transform="rotate(35 30 18)" fill="#D6AD58"/>
+    <ellipse cx="22" cy="26" rx="3.5" ry="2" transform="rotate(-40 22 26)" fill="#D6AD58"/>
+    <ellipse cx="31" cy="24" rx="3.5" ry="2" transform="rotate(40 31 24)" fill="#D6AD58"/>
+    <ellipse cx="23" cy="32" rx="3.5" ry="2" transform="rotate(-30 23 32)" fill="#D6AD58"/>
+    <ellipse cx="30" cy="31" rx="3.5" ry="2" transform="rotate(30 30 31)" fill="#D6AD58"/>
+    <ellipse cx="26" cy="12" rx="2.5" ry="3.5" fill="#F8F5ED"/>
+  </g>
+  <!-- Wordmark -->
+  <text x="72" y="38" font-family="'Fraunces', 'DM Serif Display', Georgia, serif" font-size="27" font-weight="700" fill="#254738" letter-spacing="-0.5">Aura<tspan fill="#B97958">Millet</tspan></text>
+  <text x="74" y="53" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700" fill="#7A8B7E" letter-spacing="3.2" text-transform="uppercase">ORGANIC SUPERGRAINS</text>
+</svg>
