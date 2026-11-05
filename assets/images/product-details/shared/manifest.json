@@ -1,0 +1,16 @@
+[
+  {
+    "role": "millet-field",
+    "path": "assets/images/product-details/shared/masters/millet-field.png",
+    "alt": "Illustrative finger millet field in warm morning light",
+    "generated": true,
+    "prompt": "Use case: photorealistic-natural. Create one premium editorial landscape photograph for an Indian millet shop's farm-to-pack demonstration, 16:9 framing, request 3840x2160 4K if available. A real-looking finger millet field at early morning, characteristic curved finger-shaped ragi seed heads in the foreground, earthy red-brown soil paths, soft distant hills, warm golden sunlight and muted sage greens. Rich realistic tiny seeds and botanical structures. No wheat ears, no rice, no people, no signage, no text, no logo, no watermark. One coherent photograph, not a collage. Calm natural premium food brand photography, not oversaturated."
+  },
+  {
+    "role": "packing-table",
+    "path": "assets/images/product-details/shared/masters/packing-table.png",
+    "alt": "Illustrative packing table with unbranded pouches and millet grains",
+    "generated": true,
+    "prompt": "Use case: photorealistic-natural. One premium editorial food packing photograph for a millet pantry brand demonstration. 16:9 landscape, request native 3840x2160 4K if available. A pristine warm sunlit artisan packing table with a small stainless steel scoop and sieve, glass jar of tiny round pale millet grains, three unbranded sealed kraft-paper food pouches standing upright, clean folded sage-green linen, a few millet grains on dark oak. Close natural still life, earthy forest-green background and cream light, honest realistic paper and grain textures. No text whatsoever, no labels, no certification seals, no hands, no logos, no rice, no wheat ears, no collage, no watermark. Leave some visual breathing room. Photographic, not a digital illustration."
+  }
+]

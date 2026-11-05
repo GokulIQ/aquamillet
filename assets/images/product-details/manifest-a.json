@@ -1,0 +1,292 @@
+{
+  "foxtail-millet-cookies": [
+    {
+      "role": "main",
+      "path": "assets/images/product-details/foxtail-millet-cookies/masters/main.png",
+      "alt": "Golden foxtail millet almond cookies stacked on a ceramic plate",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce hero food photograph of artisanal foxtail millet almond cookies. Five small round golden-brown cookies stacked on a pale ceramic plate, visible almond slivers and fine grainy crisp crumb, one broken cookie on the plate showing its dry crumb. A few whole almonds and cardamom pods rest on beige stone beside the plate, softly blurred sage linen and a simple tea cup in background. Landscape 4:3 composition, requested 4K detail, inviting warm window light, realistic handmade bakery texture, refined editorial quality. NO wheat, NO stalks, NO grain ears, NO grass seedheads, NO decorative plants, NO rice, NO oats, NO text, NO labels, NO watermark. One photograph.",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/foxtail-millet/source.png",
+      "alt": "Small golden foxtail millet grains in an earthenware bowl",
+      "generated": false,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/foxtail-millet-cookies/masters/preparation.png",
+      "alt": "Almond-topped foxtail millet cookie dough arranged on a baking tray",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph, landscape 4:3, requested 4K detail. Preparation of foxtail millet almond cookies: rustic parchment-lined baking tray holding eight small round unbaked beige grainy cookie dough disks studded with almond slivers, a wooden bowl of pale foxtail flour and a little jaggery in softly defocused background. Warm daylight, oat-beige linen and natural stone, authentic handmade textures, close three-quarter view, visually appetizing. No text, no packaging, no watermarks, no wheat stalks, no rice, no extra food. One photograph only.",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/products/cookies/foxtail-cookies-4.jpg",
+      "alt": "Foxtail millet cookies served with a cup of tea",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "sprouted-ragi-flour": [
+    {
+      "role": "main",
+      "path": "assets/images/products/flours/ragi-flour-1.jpg",
+      "alt": "Stoneground sprouted ragi flour in a ceramic bowl",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/finger-millet/source.png",
+      "alt": "Small reddish brown finger millet grains",
+      "generated": false,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/products/flours/ragi-flour-2.jpg",
+      "alt": "Fine ragi flour ready to measure in a wooden scoop",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/sprouted-ragi-flour/masters/serving.png",
+      "alt": "Warm ragi porridge topped with yogurt and chopped almonds",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Sprouted ragi porridge served warm in a charcoal ceramic bowl, natural reddish taupe brown finger millet porridge with a small swirl of yogurt and scattered chopped almonds, a wooden spoon and tiny bowl of reddish-brown round ragi grain behind it. Not chocolate, no cocoa. Beautiful contemporary Indian breakfast table. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close three-quarter framing, sharp authentic food texture, appetizing restrained styling. One real-looking photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props.",
+      "width": 1448,
+      "height": 1086
+    }
+  ],
+  "air-dried-little-millet-noodles": [
+    {
+      "role": "main",
+      "path": "assets/images/products/noodles/little-millet-noodles-1.jpg",
+      "alt": "Dry little millet noodle nests on a bamboo tray",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/little-millet/source.png",
+      "alt": "Pale small little millet grains in a bowl",
+      "generated": false,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/air-dried-little-millet-noodles/masters/preparation.png",
+      "alt": "Little millet noodles tossed with vegetables in a wok",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Preparing thin round little millet noodles: a black wok with golden tan fine noodles, slivered carrot, green beans, cabbage and bell pepper, wooden spatula lifting some noodles from the wok, no person visible. Little millet and red lentil noodles, not ribbon pasta. Beautiful contemporary Indian home kitchen. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close three-quarter framing, sharp authentic food texture, appetizing restrained styling. One real-looking photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props.",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/products/noodles/little-millet-noodles-2.jpg",
+      "alt": "Little millet noodles served in broth with mushrooms and greens",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    }
+  ],
+  "roasted-pearl-millet-chivda": [
+    {
+      "role": "main",
+      "path": "assets/images/products/snacks/bajra-chivda-1.jpg",
+      "alt": "Roasted pearl millet chivda with peanuts and curry leaves",
+      "generated": false,
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/pearl-millet/source.png",
+      "alt": "Pearl millet grains in a rustic bowl",
+      "generated": false,
+      "width": 1672,
+      "height": 941
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/roasted-pearl-millet-chivda/masters/preparation.png",
+      "alt": "Puffed bajra, peanuts and curry leaves roasting in a kadai",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Roasting bajra chivda: a black iron kadai with small round puffed pearl millet grains, golden peanuts, roasted split chickpeas, glossy crisp curry leaves, very light turmeric coating, and a wooden stirring spoon. No sev, no potato chips, no rice flakes, no large popcorn. Beautiful contemporary Indian home kitchen. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close three-quarter framing, sharp authentic food texture, appetizing restrained styling. One real-looking photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props.",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/roasted-pearl-millet-chivda/masters/serving.png",
+      "alt": "Bajra chivda served with a glass of Indian chai",
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. A small handmade olive ceramic bowl filled with roasted bajra chivda: tiny rounded pearl millet puffs, golden peanuts, split chickpeas and glossy crisp curry leaves, on a wooden tray with a small glass of Indian chai and a linen napkin. Top-down photograph, restrained authentic tea-time serving. No rice flakes or sev. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close framing, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props.",
+      "width": 1448,
+      "height": 1086
+    }
+  ],
+  "spiced-kodo-millet-crisps": [
+    {
+      "role": "main",
+      "path": "assets/images/product-details/spiced-kodo-millet-crisps/masters/main.png",
+      "alt": "Triangular baked kodo millet tomato crackers with herbs",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. A low ceramic bowl full of thin small triangular baked kodo millet crackers, warm terracotta golden color from sun-dried tomato, visible tiny dark wholegrain flecks and oregano, one cracker broken in foreground revealing crisp airy interior. Handmade appearance, not potato chips. A few sun-dried tomato pieces and herb sprigs beside bowl. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close framing, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props."
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/kodo-millet/source.png",
+      "alt": "Small tan kodo millet grains in an earthenware bowl",
+      "width": 1672,
+      "height": 941,
+      "generated": false
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/spiced-kodo-millet-crisps/masters/preparation.png",
+      "alt": "Tomato and herb millet dough cut into triangular crackers",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Top-down view of preparing thin triangular kodo millet crackers: rust-orange sun-dried tomato herb dough rolled thin on parchment, half the sheet cut into neat triangles using a small pastry wheel resting to the side, a few unbaked triangles arranged on a dark baking tray. Small bowl of tan millet flour, dry oregano and sun-dried tomatoes nearby. No wheat, no potato chips. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/spiced-kodo-millet-crisps/masters/serving.png",
+      "alt": "Baked kodo crisps with hummus and cucumber",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Thin crisp triangular baked kodo millet tomato crackers served on a dark olive ceramic plate beside a small bowl of smooth hummus with a little olive oil and paprika, cucumber spears and a linen napkin. Crackers golden terracotta with wholegrain speckles and oregano, one cracker dipped in hummus rests against the bowl. No potato chips. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    }
+  ],
+  "barnyard-millet-muesli": [
+    {
+      "role": "main",
+      "path": "assets/images/product-details/barnyard-millet-muesli/masters/main.png",
+      "alt": "Barnyard millet flakes with almonds, pumpkin seeds, chia and cranberries",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. A large shallow sage green ceramic bowl of dry barnyard millet muesli: tiny toasted pale millet flakes mixed with sliced almonds, green pumpkin seeds, speckled tiny chia and dried red cranberries. The flakes must be small delicate millet flakes, not large oats, no wheat. Beautiful breakfast food styling, linen and wooden scoop. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, close framing, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark, wheat stalks or unrelated props."
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/barnyard-millet/source.png",
+      "alt": "Pale barnyard millet grains in a rustic bowl",
+      "width": 1672,
+      "height": 941,
+      "generated": false
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/barnyard-millet-muesli/masters/preparation.png",
+      "alt": "Milk poured over millet muesli for overnight breakfast jars",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Preparing overnight barnyard millet muesli: two clear wide-mouthed glass jars on a beige kitchen worktop, front jar partially filled with small toasted millet flakes, pumpkin seeds, chia, almond slivers and dried cranberries with milk being poured from a small ceramic pitcher just visible at top edge. Second jar has completed creamy soaked mixture. No text, no oats, no wheat. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/barnyard-millet-muesli/masters/serving.png",
+      "alt": "Millet muesli over yogurt with banana and blueberries",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Top-down view of barnyard millet muesli breakfast with yogurt in a shallow bowl: small delicate toasted pale millet flakes, sliced almonds, pumpkin seeds, chia and cranberries over thick plain yogurt, a few sliced bananas and blueberries at one edge. Metal spoon, linen napkin. Small millet flakes not large oats, no wheat. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    }
+  ],
+  "cold-milled-sorghum-flour": [
+    {
+      "role": "main",
+      "path": "assets/images/product-details/cold-milled-sorghum-flour/masters/main.png",
+      "alt": "Ivory wholegrain sorghum flour with a wooden scoop",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. A rustic shallow cream ceramic bowl heaped with very fine ivory wholegrain sorghum jowar flour, a wooden flour scoop on the beige stone table and a small bowl of smooth round ivory sorghum seeds behind. Flour pale off-white, not brown. Soft natural window light, beautiful artisanal ingredients still life. No wheat ears, no rice. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/sorghum/source.png",
+      "alt": "Round ivory sorghum grains in a rustic bowl",
+      "width": 1672,
+      "height": 941,
+      "generated": false
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/cold-milled-sorghum-flour/masters/preparation.png",
+      "alt": "Jowar bhakri dough patted by hand beside a hot tava",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Making jowar bhakri by hand: pale ivory sorghum flour flatbread dough pressed into a round rustic disk on a wooden board, lightly dusted with flour, two adult hands gently patting edges, a black iron tava behind with one flatbread cooking, small bowl of white sorghum flour. Natural Indian kitchen, hands anatomically correct, no wheat. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/cold-milled-sorghum-flour/masters/serving.png",
+      "alt": "Sorghum bhakri served with dal and coriander chutney",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Indian jowar bhakri lunch: three thin rustic pale ivory sorghum flatbreads with scattered brown toasted spots stacked on a handmade dark plate, beside a little bowl of yellow dal and coriander chutney, cut lime and simple linen. Flatbread must be matte and irregular-edged, not naan, no wheat stalks. High three-quarter angle. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    }
+  ],
+  "barnyard-millet-fettuccine": [
+    {
+      "role": "main",
+      "path": "assets/images/product-details/barnyard-millet-fettuccine/masters/main.png",
+      "alt": "Dry barnyard millet fettuccine ribbons coiled into nests",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Uncooked barnyard millet fettuccine pasta nests on a pale stoneware platter: wide flat 6mm beige-ivory ribbons with rough bronze-drawn texture, loosely coiled in three nests, a few dry flat ribbons falling across the plate, small bowl of pale round barnyard millet grains in background. Absolutely not spaghetti or thin noodles. No wheat, no rice, no eggs. Close three-quarter angle. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "ingredients",
+      "path": "assets/images/millets/barnyard-millet/source.png",
+      "alt": "Small pale barnyard millet grains used for pasta flour",
+      "width": 1672,
+      "height": 941,
+      "generated": false
+    },
+    {
+      "role": "preparation",
+      "path": "assets/images/product-details/barnyard-millet-fettuccine/masters/preparation.png",
+      "alt": "Wide millet fettuccine ribbons lifted from simmering water",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Cooking wide flat barnyard millet fettuccine ribbons: stainless steel pasta pot on a stove with simmering water, wooden tongs lifting a modest bundle of soft ivory-beige wide flat 6mm pasta ribbons above the pot, light steam. A kitchen prep setting with olive oil and basil blurred in background. Absolutely not spaghetti. No visible hands. Close three-quarter angle. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    },
+    {
+      "role": "serving",
+      "path": "assets/images/product-details/barnyard-millet-fettuccine/masters/serving.png",
+      "alt": "Millet fettuccine tossed with basil pesto and cherry tomatoes",
+      "width": 1448,
+      "height": 1086,
+      "generated": true,
+      "prompt": "Use case: photorealistic-natural. Premium ecommerce food photograph. Elegant bowl of barnyard millet fettuccine: wide flat 6mm ivory-beige pasta ribbons lightly coated with basil pesto, halved cherry tomatoes, fresh basil and a few pine nuts, served in a cream ceramic shallow bowl with a fork on linen. Clearly flat wide ribbons, not spaghetti, not shell pasta. Mediterranean home lunch, close three-quarter angle. Landscape 4:3 composition, requested 4K detail, natural soft window light, earthy beige and olive palette, tactile stone and linen surfaces, sharp authentic food texture. One photograph only. No text, branding, packaging, watermark or unrelated props."
+    }
+  ]
+}
